@@ -40,7 +40,7 @@ Các thư viện trong vcpkg k thể tự link đến chương trình của bạ
 ```
 -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake
 ```
-vào File > Settings on Windows and Linux, CLion > Preferences on macOS)-> CMake settings (Build, Execution, Deployment > CMake). Trong CMake options
+Trong Clion vào File > Settings ở Windows và Linux, CLion > Preferences ở macOS)-> CMake settings (Build, Execution, Deployment > CMake). Trong CMake options
 ![img.png](img.png)
 
 Lúc này, bạn có thể reload lại cmake, nếu không có lỗi gì chứng tỏ phần cài đặt đã thành công
@@ -67,7 +67,7 @@ sau đó bạn có thể chạy chương trình bằng cú pháp
 ```
 ### Common issue: Chỉ thấy hình chữ nhật màu vàng
 
-Nếu bạn thấy hình chữ nhật màu vàng thì chứng tỏ chương trình của bạn đã thành công, nếu không được bạn có thể xem lại ở phần working directory trong `quad_test`.
+Nếu bạn thấy hình chữ nhật màu vàng thì chứng tỏ chương trình của bạn đã thành công, tuy nhiên bạn không thấy hình bức tường là do working directory của bạn chưa đúng, hay set working directory của bạn đến thư mục project.
 
 ## Part 2 - Basic C++/Linear Algebra Practice
 
