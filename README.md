@@ -59,7 +59,11 @@ mkdir build
 cd build
 cmake ..
 make
+```
 
+sau đó bạn có thể chạy chương trình bằng cú pháp 
+```
+./quad_test
 ```
 ### Common issue: Chỉ thấy hình chữ nhật màu vàng
 
