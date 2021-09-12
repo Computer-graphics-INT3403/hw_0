@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/admin/CLionProjects/hw0-intro/cmake-build-debug/CMakeFiles/quad_test.dir/embed.manifest"
