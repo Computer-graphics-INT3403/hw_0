@@ -58,9 +58,9 @@ class QuadDrawer : public Renderer {
     int width, height, nrChannels;
     //TODO: (optional) Change the picture here!
 #ifdef _MSC_VER
-    unsigned char* data = stbi_load("../../../wall.jpg", &width, &height, &nrChannels, 0);
+    unsigned char* data = stbi_load(".wall.jpg", &width, &height, &nrChannels, 0);
 #else
-    unsigned char* data = stbi_load("../wall.jpg", &width, &height, &nrChannels, 0);
+    unsigned char* data = stbi_load("./wall.jpg", &width, &height, &nrChannels, 0);
 #endif
     if (data)
     {
